@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1> <center>REGISTRATION FORM</center></h1>
+    <form action="" method="post">
+        <label for="username">Full Name :</label><br>
+        <input type="text" id="username" name="username" placeholder="Name" required><br>
+
+        <label for="password">Password :</label><br>
+        <input type="password" id="password" name="password" placeholder="Password" required><br>
+
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" placeholder="Email" required><br>
+
+        <label for="contact">Contact Number :</label><br>
+        <input type="tel" id="contact" name="contact" placeholder="Contact Number" required><br>
+
+        <label for="dob">Date of Birth :</label><br>
+        <input type="date" id="dob" name="dob" required><br>
+
+        <label>Gender :</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <label for="education">Education Qualification :</label><br>
+        
+        <select id="education" name="education">
+            <option value="select">select</option>
+            <option value="ssc">SSC</option>
+            <option value="inter">Intermediate</option>
+            <option value="degree">Degree</option>
+            <option value="pg">Post Graduation</option>
+        </select><br>
+        <label for="Passed Out Year">Passed Out Year :</label><br>
+        <select id="Year" name="Year">
+            <option value="select">select</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+        </select><br>
+        <label for="Upload Resume">Upload Resume</label>
+        <button type="Upload Resume :">Choose File</button>
+    </form>
+    <hr>
+    <p>Remarks :</p>
+    <textarea name="remarks" id="remarks" cols="50"></textarea><br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</body>
+</html>
